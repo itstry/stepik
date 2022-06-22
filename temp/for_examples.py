@@ -6,6 +6,7 @@ def get(value):
         return "Positive"
     if value < 0:
         return "Negative"
+        pass
     return 'Zero'
 
 
