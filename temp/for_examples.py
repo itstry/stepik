@@ -1,9 +1,10 @@
-a1, b1, a2, b2, space = int(input()), int(input()), int(input()), int(input()), ' '
-if (a2 > b1 and a1 < b2) or (a1 > b2 and a2 < b1):
-    print('пустое множество')
-elif b1 == a2 or a1 == b2:
-    print(a1 if (a1 == b2) else a2)
-elif a1 <= a2:
-    print(str(a2) + space + str(b2) if (b1 >= b2) else str(a2) + space + str(b1))
-elif a1 >= a2:
-    print(str(a1) + space + str(b1) if (b1 <= b2) else str(a1) + space + str(b2))
+x1, y1 = int(input()), int(input())
+x2, y2 = int(input()), int(input())
+
+if (x1 == x2 and y1 != y2) or (x1 != x2 and y1 == y2) or ((x1 - x2) ** 2 == (y1 - y2) ** 2):
+    print('YES')
+else:
+    print('NO')
+
+
+
