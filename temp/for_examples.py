@@ -1,4 +1,4 @@
-# хз какой день; +81 задача; всего: 81
+# хз какой день; +82 задача; всего: 82
 
-name = input()
-print(f'Футбольная команда {name} имеет длину {len(name)} символов')
+names = [input(), input(), input()]
+print(f'{min(names, key=len)}\n{max(names, key=len)}')
