@@ -1,10 +1,9 @@
-# 1 день; +46 задача; всего: 46
-z = int(input())
+# 1 день; +47 задача; всего: 47
+a = int(input())
+b = int(input())
+c = int(input())
 
-if 1000 <= z <= 9999:
-    if z % 7 == 0 or z % 17 == 0:
-        print('YES')
-    else:
-        print('NO')
+if a + b > c and b + c > a and a + c > b:
+    print('YES')
 else:
     print('NO')
