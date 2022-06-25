@@ -1,10 +1,11 @@
-# 2 день; +57 задача; всего: 57
+# 2 день; +58 задача; всего: 58
 
-if (i := int(input())) not in range(0, 37):
-    print('ошибка ввода')
-elif (i in range(1, 11)) or (i in range(19, 29)):
-    print('красный' if i % 2 != 0 else 'черный')
-elif (i in range(11, 19)) or (i in range(29, 37)):
-    print('черный' if i % 2 != 0 else 'красный')
-elif i == 0:
-    print('зеленый')
+a1, b1, a2, b2, space = int(input()), int(input()), int(input()), int(input()), ' '
+if (a2 > b1 and a1 < b2) or (a1 > b2 and a2 < b1):
+    print('пустое множество')
+elif b1 == a2 or a1 == b2:
+    print(a1 if (a1 == b2) else a2)
+elif a1 <= a2:
+    print(str(a2) + space + str(b2) if (b1 >= b2) else str(a2) + space + str(b1))
+elif a1 >= a2:
+    print(str(a1) + space + str(b1) if (b1 <= b2) else str(a1) + space + str(b2))
