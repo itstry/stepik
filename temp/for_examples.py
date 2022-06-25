@@ -1,23 +1,10 @@
 # 2 день; +57 задача; всего: 57
-basis_color_list = ['красный', 'синий', 'желтый']
-extra_color_list = ['фиолетовый', 'оранжевый', 'зеленый']
 
-
-def color_mix(color_1: str, color_2: str) -> str:
-    if (color_1 == color_2) and (color_1 in basis_color_list):
-        return color_1
-    elif (color_1 == basis_color_list[0] and color_2 == basis_color_list[1]) or (
-            color_1 == basis_color_list[1] and color_2 == basis_color_list[0]):
-        return extra_color_list[0]
-    elif (color_1 == basis_color_list[0] and color_2 == basis_color_list[2]) or (
-            color_1 == basis_color_list[2] and color_2 == basis_color_list[0]):
-        return extra_color_list[1]
-    elif (color_1 == basis_color_list[1] and color_2 == basis_color_list[2]) or (
-            color_1 == basis_color_list[2] and color_2 == basis_color_list[1]):
-        return extra_color_list[2]
-    elif color_1 != any(basis_color_list) or color_2 in basis_color_list:
-        return 'ошибка цвета'
-
-
-if __name__ == '__main__':
-    print(color_mix(input(), input()))
+if (i := int(input())) not in range(0, 37):
+    print('ошибка ввода')
+elif (i in range(1, 11)) or (i in range(19, 29)):
+    print('красный' if i % 2 != 0 else 'черный')
+elif (i in range(11, 19)) or (i in range(29, 37)):
+    print('черный' if i % 2 != 0 else 'красный')
+elif i == 0:
+    print('зеленый')
