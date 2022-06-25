@@ -1,4 +1,4 @@
-# 4 day; 9 задача; total: 97
-
-for _ in range(int(input())):
-    print('*' * 19)
+# 4 day; 10 задача; total: 98
+k = str(input())
+for _ in range(10):
+    print(_, k)
