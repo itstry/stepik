@@ -1,4 +1,3 @@
-# 1 день; +18 задача; всего: 18
+# 1 день; +19 задача; всего: 19
 # put your python code here
-x, y = int(input()), int(input())
-print(f'{x} + {y} = {x + y}\n{x} - {y} = {x - y}\n{x} * {y} = {x * y}\n')
+print(int(input()) + int(input()) * (int(input()) - 1))
