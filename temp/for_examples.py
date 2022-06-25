@@ -1,13 +1,3 @@
-# 1 день; +10 задача; всего: 10
-sep = input()
-print((input()), (input()), (input()), sep = sep)
-
-
-
-
-
-
-
-
-
-
+# 1 день; +11 задача; всего: 11
+# put your python code here
+print(f'Привет, {input()}!')
