@@ -1,3 +1,6 @@
-# хз какой день; +79 задача; всего: 79
+# хз какой день; +80 задача; всего: 80
 
-print("\"Python is a great language!\", said Fred. \"I don't ever remember having this much fun before.\"")
+number_list = []
+for i in range(int(input())):
+    number_list.append(int(input()))
+print(sum(number_list))
