@@ -1,3 +1,4 @@
-# 4 day; 11 задача; total: 99
-for _ in range(0, (k := int(input())) + 1):
-    print(f'Квадрат числа {_} равен {_ ** 2}')
+# 4 day; 12 задача; total: 100
+k = int(input())
+for _ in range(0, k):
+    print('*' * (k - _))
