@@ -1,3 +1,3 @@
-# 1 день; +11 задача; всего: 11
-# put your python code here
-print(f'Привет, {input()}!')
+# 1 день; +12 задача; всего: 12
+x = int(input())
+print(f'{x}\n{x + 1}\n{x + 2}\n')
