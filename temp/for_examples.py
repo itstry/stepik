@@ -1,8 +1,3 @@
-# 2 день; +62 задача; всего: 62
+# 2 день; +63 задача; всего: 63
 
-i = int(input())
-roman_list = [None, 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
-if i not in range(1, 11):
-    print('ошибка')
-else:
-    print(roman_list[i])
+print('YES' if (((i := int(input())) % 2 != 0) or (i % 2 == 0 and i in range(6, 21))) else 'NO')
