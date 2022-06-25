@@ -1,4 +1,3 @@
-# хз какой день; +78 задача; всего: 78
+# хз какой день; +79 задача; всего: 79
 
-p1, p2, q1, q2 = int(input()), int(input()), int(input()), int(input())
-print(abs(p1 - q1) + abs(p2 - q2))
+print("\"Python is a great language!\", said Fred. \"I don't ever remember having this much fun before.\"")
