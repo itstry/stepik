@@ -1,12 +1,8 @@
-# 2 день; +61 задача; всего: 61
+# 2 день; +62 задача; всего: 62
 
-year = int(input())
-gender = str(input())
-
-if 10 <= year <= 15:
-    if gender == 'f':
-        print('YES')
-    else:
-        print('NO')
+i = int(input())
+roman_list = [None, 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
+if i not in range(1, 11):
+    print('ошибка')
 else:
-    print('NO')
+    print(roman_list[i])
