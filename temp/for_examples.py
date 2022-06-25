@@ -1,8 +1,7 @@
-# 1 день; +33 задача; всего: 33
-x = input()
+# 1 день; +34 задача; всего: 34
+pas1, pas2 = input(), input()
 
-a = x
-b = x * 2
-c = x * 3
-
-print(int(a) + int(b) + int(c))
+if pas1 == pas2:
+    print('Пароль принят')
+else:
+    print('Пароль не принят')
