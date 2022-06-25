@@ -1,7 +1,5 @@
-# 1 день; +6 задача; всего: 6
-# put your python code here
-print(f'{input()} - чемпион!')
-
+# 1 день; +7 задача; всего: 7
+print(f'{input()}\n{input()}\n{input()}\n')
 
 
 
