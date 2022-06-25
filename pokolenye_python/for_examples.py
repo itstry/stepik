@@ -1,11 +1,9 @@
-# 5 day; 19 задача; total: 116
+# 5 day; 20 задача; total: 117
 # ^-^ в профиле ссылка гитхаб
 
-numbers_count = int(input())
-numbers_list = []
-
-for i in range(1, numbers_count+1):
-    numbers_list.append(int(input()))
-k = sorted(numbers_list)
-print(k[numbers_count-1])
-print(k[numbers_count-2])
+flag = 'YES'
+for i in range(1, 11):
+    j = int(input())
+    if j % 2 != 0:
+        flag = "NO"
+print(flag)
