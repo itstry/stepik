@@ -1,5 +1,7 @@
-# хз какой день; +68 задача; всего: 68
+# хз какой день; +69 задача; всего: 69
 
-s, a, b = float(input()), float(input()), float(input())
-
-print(s / (a + b))
+s = float(input())
+if s == 0:
+    print('Обратного числа не существует')
+else:
+    print(1 / s)
