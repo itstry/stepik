@@ -1,6 +1,6 @@
-# 4 день; +2 задача; всего: 90
-# 4 день; +37 задача; всего: 141
-from math import radians, sin, cos, tan
+# 4 день; +3 задача; всего: 91
+# 4 день; +38 задача; всего: 142
+from math import floor, ceil
 
-i = radians(float(input()))
-print(sin(i) + cos(i) + tan(i) ** 2)
+i = float(input())
+print(ceil(i) + floor(i))
