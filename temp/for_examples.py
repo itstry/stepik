@@ -1,5 +1,2 @@
-# 4 день; +5 задача; всего: 93
-from math import tan, pi
-
-n, a = float(input()), float(input())
-print((n * a ** 2) / (4 * tan(pi / n)))
+# 4 день; +6 задача; всего: 94
+[print('Python is awesome!') for i in range(0, 10)]
