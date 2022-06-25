@@ -1,7 +1,7 @@
-# 1 день; +5 задача; всего: 5
+# 1 день; +6 задача; всего: 6
 # put your python code here
-x = input()
-print(f'Привет, {x}')
+print(f'{input()} - чемпион!')
+
 
 
 
