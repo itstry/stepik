@@ -1,2 +1,2 @@
-# 2 день; +53 задача; всего: 53
-print((spisok := sorted([int(input()), int(input()), int(input())]))[1])
+# 2 день; +54 задача; всего: 54
+print(day_in_month := ([0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31])[int(input())])
