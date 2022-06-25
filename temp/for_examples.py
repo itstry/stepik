@@ -1,6 +1,8 @@
-# 1 день; +7 задача; всего: 7
-print(f'{input()}\n{input()}\n{input()}\n')
-
+# 1 день; +8 задача; всего: 8
+x = input()
+y = input()
+z = input()
+print(f'{z}\n{y}\n{x}\n')
 
 
 
