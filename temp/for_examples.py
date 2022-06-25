@@ -1,9 +1,5 @@
-# 2 день; +66 задача; всего: 66
+# хз какой день; +67 задача; всего: 67
 
-x1, y1 = int(input()), int(input())
-x2, y2 = int(input()), int(input())
+a, b = float(input()), float(input())
 
-if (x1 == x2 and y1 != y2) or (x1 != x2 and y1 == y2) or ((x1 - x2) ** 2 == (y1 - y2) ** 2):
-    print('YES')
-else:
-    print('NO')
+print(0.5 * a * b)
