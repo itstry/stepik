@@ -1,6 +1,6 @@
-# 4 день; +1 задача; всего: 89
-# 4 день; +36 задача; всего: 140
-from math import sqrt
+# 4 день; +2 задача; всего: 90
+# 4 день; +37 задача; всего: 141
+from math import radians, sin, cos, tan
 
-print(
-    f'{((a := float(input())) + (b := float(input()))) / 2}\n{sqrt(a * b)}\n{(2 * a * b) / (a + b)}\n{sqrt((a * a + b * b) / 2)}')
+i = radians(float(input()))
+print(sin(i) + cos(i) + tan(i) ** 2)
