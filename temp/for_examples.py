@@ -1,9 +1,3 @@
-# хз какой день; +76 задача; всего: 76
+# хз какой день; +77 задача; всего: 77
 
-i = input()
-numbers = [int(i[0]), int(i[1]), int(i[2])]
-sorted(numbers)
-if max(numbers) - min(numbers) == (sum(numbers) - max(numbers) - min(numbers)):
-    print('Число интересное')
-else:
-    print('Число неинтересное')
+print(abs(float(input())) + abs(float(input())) + abs(float(input())) + abs(float(input())) + abs(float(input())))
