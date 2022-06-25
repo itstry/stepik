@@ -1,9 +1,2 @@
-# 2 день; +52 задача; всего: 52
-a, b, c = int(input()), int(input()), int(input())
-
-if a == b == c:
-    print('Равносторонний')
-elif a == b or a == c or b == c:
-    print('Равнобедренный')
-else:
-    print('Разносторонний')
+# 2 день; +53 задача; всего: 53
+print((spisok := sorted([int(input()), int(input()), int(input())]))[1])
