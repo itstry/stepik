@@ -1,2 +1,2 @@
-# +39 задача; всего: 39  1 день;
-print(min(int(input()), int(input())))
+# 1 день; +40 задача; всего: 40
+print(min(int(input()), int(input()), int(input()), int(input())))
