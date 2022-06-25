@@ -1,3 +1,4 @@
-# хз какой день; +77 задача; всего: 77
+# хз какой день; +78 задача; всего: 78
 
-print(abs(float(input())) + abs(float(input())) + abs(float(input())) + abs(float(input())) + abs(float(input())))
+p1, p2, q1, q2 = int(input()), int(input()), int(input()), int(input())
+print(abs(p1 - q1) + abs(p2 - q2))
