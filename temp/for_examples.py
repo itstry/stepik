@@ -1,5 +1,3 @@
-# 4 day; 13 задача; total: 101
-m, p, n = int(input()), int(input()), int(input())
-for i in range(1, n + 1):
-    print(i, m)
-    m = m + (m * (p / 100))
+# 5 day; 1 задача; total: 102
+for i in range(int(input()), (int(input()) + 1)):
+    print(i)
