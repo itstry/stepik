@@ -1,7 +1,8 @@
-# 1 день; +48 задача; всего: 48
-z = int(input())
+# 1 день; +49 задача; всего: 49
+x1, y1 = int(input()), int(input())
+x2, y2 = int(input()), int(input())
 
-if z % 4 == 0 and z % 100 != 0 or z % 400 == 0:
+if (x1 == x2 and y1 != y2) or (x1 != x2 and y1 == y2):
     print('YES')
 else:
     print('NO')
