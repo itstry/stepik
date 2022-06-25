@@ -1,10 +1,6 @@
-# 5 day; 6 задача; total: 103
+# 5 day; 7 задача; total: 104
+
 m = int(input())
 n = int(input())
-
-if m <= n:
-    for i in range(m, n + 1):
-        print(i)
-if m > n:
-    for i in range(m, n - 1, -1):
-        print(i)
+m = ((((m - 1) // 2) * 2) + 1)
+[print(i) for i in range(m, n - 1, -2)]
