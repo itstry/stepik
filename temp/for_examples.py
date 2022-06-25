@@ -1,10 +1,6 @@
-# 5 день; +9 задача; всего: 157
-x = 0
-while i := input():
-    if i.isnumeric():
-        x = int(i) + x
-    elif i == '' or i == '=':
-        break
-print(x)
-
-
+# 5 день; +11 задача; всего: 159
+counter = 0
+for i in range(int(input()), int(input()) + 1):
+    if (i ** 3) % 10 == 4 or (i ** 3) % 10 == 9:
+        counter += 1
+print(counter)
