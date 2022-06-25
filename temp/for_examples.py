@@ -1,5 +1,4 @@
-# хз какой день; +74задача; всего: 74
+# хз какой день; +75 задача; всего: 75
 
-numbers = a, b, c, d, e = int(input()), int(input()), int(input()), int(input()), int(input())
-print(f'Наименьшее число = {min(numbers)}')
-print(f'Наибольшее число = {max(numbers)}')
+numbers = [int(input()), int(input()), int(input())]
+print(f'{sorted(numbers)[2]}\n{sorted(numbers)[1]}\n{sorted(numbers)[0]}')
