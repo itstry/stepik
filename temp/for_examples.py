@@ -21,6 +21,3 @@ def color_mix(color_1: str, color_2: str) -> str:
 
 if __name__ == '__main__':
     print(color_mix(input(), input()))
-
-if __name__ == '__main__':
-    print(calc(int(input()), int(input()), str(input())))
