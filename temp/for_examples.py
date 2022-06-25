@@ -1,5 +1,9 @@
-# 1 день; +9 задача; всего: 9
-print('I***like***Python')
+# 1 день; +10 задача; всего: 10
+sep = input()
+print((input()), (input()), (input()), sep = sep)
+
+
+
 
 
 
