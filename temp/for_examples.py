@@ -1,5 +1,4 @@
-# хз какой день; +87 задача; всего: 87
-from math import sqrt;
+# хз какой день; +88 задача; всего: 88
+from math import pi
 
-x1, y1, x2, y2 = float(input()), float(input()), float(input()), float(input());
-print(sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2))  # 1 строка
+print(f'{pi * (i := float(input())) ** 2}\n{2 * pi * i}')
