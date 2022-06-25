@@ -1,3 +1,2 @@
-# 1 день; +21 задача; всего: 21
-z, x, c = int(input()), int(input()), int(input())
-print(z * x ** (c - 1))
+# 1 день; +22 задача; всего: 22
+print(int(input()) // 100)
