@@ -1,2 +1,4 @@
-# 4 день; +6 задача; всего: 94
-[print('Python is awesome!') for i in range(0, 10)]
+# 4 day; 7 задача; total: 95
+i = str(input())
+k = int(input())
+[print(i) for _ in range(k)]
