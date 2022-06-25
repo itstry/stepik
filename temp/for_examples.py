@@ -1,2 +1,5 @@
-# 1 день; +22 задача; всего: 22
-print(int(input()) // 100)
+# 1 день; +23 задача; всего: 23
+skololo = int(input())
+mandarin = int(input())
+print(mandarin // skololo)
+print(mandarin % skololo)
