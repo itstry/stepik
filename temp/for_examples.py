@@ -1,9 +1,7 @@
-# 1 день; +47 задача; всего: 47
-a = int(input())
-b = int(input())
-c = int(input())
+# 1 день; +48 задача; всего: 48
+z = int(input())
 
-if a + b > c and b + c > a and a + c > b:
+if z % 4 == 0 and z % 100 != 0 or z % 400 == 0:
     print('YES')
 else:
     print('NO')
