@@ -1,10 +1,10 @@
-# 1 день; +41 задача; всего: 41
-age = int(input())
-if age <= 13:
-    print('детство')
-elif 14 <= age <= 24:
-    print('молодость')
-elif 25 <= age <= 59:
-    print('зрелость')
-else:
-    print('старость')
+# 1 день; +42 задача; всего: 42
+a, b, c = int(input()), int(input()), int(input())
+x = 0
+if a > 0:
+    x = x + a
+if b > 0:
+    x = x + b
+if c > 0:
+    x = x + c
+print(x)
