@@ -1,21 +1,26 @@
-# 2 день; +56 задача; всего: 56
-operator_list = ['-', '+', '*', '/']
+# 2 день; +57 задача; всего: 57
+basis_color_list = ['красный', 'синий', 'желтый']
+extra_color_list = ['фиолетовый', 'оранжевый', 'зеленый']
 
 
-def calc(x: int, y: int, operator: str) -> any:
-    if y == 0 and operator == '/':
-        return 'На ноль делить нельзя!'
-    elif operator == operator_list[0]:
-        return x - y
-    elif operator == operator_list[1]:
-        return x + y
-    elif operator == operator_list[2]:
-        return x * y
-    elif operator == operator_list[3]:
-        return x / y
-    elif operator != any(operator_list):
-        return 'Неверная операция'
+def color_mix(color_1: str, color_2: str) -> str:
+    if (color_1 == color_2) and (color_1 in basis_color_list):
+        return color_1
+    elif (color_1 == basis_color_list[0] and color_2 == basis_color_list[1]) or (
+            color_1 == basis_color_list[1] and color_2 == basis_color_list[0]):
+        return extra_color_list[0]
+    elif (color_1 == basis_color_list[0] and color_2 == basis_color_list[2]) or (
+            color_1 == basis_color_list[2] and color_2 == basis_color_list[0]):
+        return extra_color_list[1]
+    elif (color_1 == basis_color_list[1] and color_2 == basis_color_list[2]) or (
+            color_1 == basis_color_list[2] and color_2 == basis_color_list[1]):
+        return extra_color_list[2]
+    elif color_1 != any(basis_color_list) or color_2 in basis_color_list:
+        return 'ошибка цвета'
 
+
+if __name__ == '__main__':
+    print(color_mix(input(), input()))
 
 if __name__ == '__main__':
     print(calc(int(input()), int(input()), str(input())))
