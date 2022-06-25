@@ -1,3 +1,3 @@
-# 1 день; +12 задача; всего: 12
-x = int(input())
-print(f'{x}\n{x + 1}\n{x + 2}\n')
+# 1 день; +13 задача; всего: 13
+print(int(input()) + int(input()) + int(input()))
+
