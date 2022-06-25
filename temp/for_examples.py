@@ -1,3 +1,4 @@
-# хз какой день; +80 задача; всего: 80
+# хз какой день; +81 задача; всего: 81
 
-print(f'Hello {input()} {input()}! You just delved into Python')
+name = input()
+print(f'Футбольная команда {name} имеет длину {len(name)} символов')
