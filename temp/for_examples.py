@@ -1,5 +1,7 @@
-# 5 day; 9 задача; total: 106
+# 5 day; 11 задача; total: 108
 
-n = int(input())
-for i in range(1, 11):
-    print(f'{n} x {i} = {i * n}')
+counter = 0
+for i in range(int(input()), int(input()) + 1):
+    if (i ** 3) % 10 == 4 or (i ** 3) % 10 == 9:
+        counter += 1
+print(counter)
