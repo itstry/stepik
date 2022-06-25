@@ -1,9 +1,9 @@
-# 2 день; +51 задача; всего: 51
-zoom, flash = int(input()), int(input())
+# 2 день; +52 задача; всего: 52
+a, b, c = int(input()), int(input()), int(input())
 
-if zoom > flash:
-    print('NO')
-elif flash > zoom:
-    print('YES')
+if a == b == c:
+    print('Равносторонний')
+elif a == b or a == c or b == c:
+    print('Равнобедренный')
 else:
-    print("Don't know")
+    print('Разносторонний')
