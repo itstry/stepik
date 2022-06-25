@@ -1,8 +1,5 @@
-# 1 день; +8 задача; всего: 8
-x = input()
-y = input()
-z = input()
-print(f'{z}\n{y}\n{x}\n')
+# 1 день; +9 задача; всего: 9
+print('I***like***Python')
 
 
 
