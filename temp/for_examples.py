@@ -1,4 +1,6 @@
-# хз какой день; +88 задача; всего: 88
-from math import pi
+# 4 день; +1 задача; всего: 89
+# 4 день; +36 задача; всего: 140
+from math import sqrt
 
-print(f'{pi * (i := float(input())) ** 2}\n{2 * pi * i}')
+print(
+    f'{((a := float(input())) + (b := float(input()))) / 2}\n{sqrt(a * b)}\n{(2 * a * b) / (a + b)}\n{sqrt((a * a + b * b) / 2)}')
