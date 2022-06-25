@@ -1,4 +1,8 @@
-# хз какой день; +82 задача; всего: 82
+# хз какой день; +83 задача; всего: 83
 
-names = [input(), input(), input()]
-print(f'{min(names, key=len)}\n{max(names, key=len)}')
+len_names = sorted(len_names := [len(input()), len(input()), len(input())])
+
+if len_names[2] - len_names[1] == len_names[1] - len_names[0]:
+    print('YES')
+else:
+    print('NO')
