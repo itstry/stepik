@@ -1,5 +1,5 @@
-# хз какой день; +67 задача; всего: 67
+# хз какой день; +68 задача; всего: 68
 
-a, b = float(input()), float(input())
+s, a, b = float(input()), float(input()), float(input())
 
-print(0.5 * a * b)
+print(s / (a + b))
