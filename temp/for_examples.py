@@ -1,6 +1,4 @@
-# 5 day; 7 задача; total: 104
+# 5 day; 8 задача; total: 105
 
-m = int(input())
-n = int(input())
-m = ((((m - 1) // 2) * 2) + 1)
-[print(i) for i in range(m, n - 1, -2)]
+[print(i) for i in range(int(input()), int(input()) + 1) if
+ (i % 17 == 0) or (i % 10 == 9) or ((i % 3 == 0) and (i % 5 == 0))]
