@@ -1,4 +1,10 @@
-# 6 day; 1 задача; total: 119
+# 7 day; 1 задача; total: 120
 # ^-^ в профиле ссылка гитхаб
-while (k := input()) != 'КОНЕЦ':
-    print(k)
+
+while True:
+    w = input()
+    if w == 'КОНЕЦ' or w == 'конец':
+        break
+    else:
+        print(w)
+
