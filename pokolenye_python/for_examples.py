@@ -1,10 +1,11 @@
-# 7 day; 1 задача; total: 120
+# 7 day; 2 задача; total: 121
 # ^-^ в профиле ссылка гитхаб
-
+list_names = []
 while True:
     w = input()
-    if w == 'КОНЕЦ' or w == 'конец':
+    if w == 'стоп' or w == 'хватит' or w == 'достаточно':
+        print(len(list_names))
         break
     else:
-        print(w)
+        list_names.append(w)
 
