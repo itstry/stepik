@@ -1,7 +1,8 @@
-# 8 day; 6 задача; total: 134
-num = int(input())
-
-for i in range(1, num + 1):
-    if 5 <= i <= 9 or 17 <= i <= 37 or 78 <= i <= 87:
-        continue
-    print(i)
+# 8 day; 7 задача; total: 135
+count, multi = 0, 1
+for _ in range(10):  # 4
+    x = int(input())
+    if x >= 0:  # 2
+        multi *= x
+        count += 1
+[print(f'{count}\n{multi}') if count > 0 else print('NO')]
