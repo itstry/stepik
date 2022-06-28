@@ -1,10 +1,10 @@
-# 8 day; 2 задача; total: 130
+# 8 day; 3 задача; total: 131
 num = int(input())
-first_2_num = num
-counter_len = 0
+temp_num = num % 10
+flag = 'YES'
 while num > 0:
     latest_num = num % 10
-    if latest_num > -1:
-        counter_len += 1
+    if latest_num != temp_num:
+        flag = 'NO'
     num //= 10
-print((first_2_num//(10**(counter_len-2)))%10)
+print(flag)
