@@ -5,7 +5,7 @@ flag = 'YES'
 num //= 10
 while num > 0:
     latest_num = num % 10
-    if latest_num - 1 != temp_num:
+    if latest_num < temp_num:
         flag = 'NO'
         break
     temp_num = num % 10
