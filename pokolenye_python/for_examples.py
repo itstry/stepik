@@ -1,15 +1,7 @@
-# 8 day; 4 задача; total: 132
+# 8 day; 5 задача; total: 133
 num = int(input())
-temp_num = num % 10
-flag = 'YES'
-num //= 10
-while num > 0:
-    latest_num = num % 10
-    if latest_num < temp_num:
-        flag = 'NO'
+
+for i in range(2, num + 1):
+    if num % i == 0:
         break
-    temp_num = num % 10
-
-    num //= 10
-
-print(flag)
+print(i)
