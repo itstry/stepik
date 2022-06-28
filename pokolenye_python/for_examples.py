@@ -1,7 +1,7 @@
-# 8 day; 5 задача; total: 133
+# 8 day; 6 задача; total: 134
 num = int(input())
 
-for i in range(2, num + 1):
-    if num % i == 0:
-        break
-print(i)
+for i in range(1, num + 1):
+    if 5 <= i <= 9 or 17 <= i <= 37 or 78 <= i <= 87:
+        continue
+    print(i)
