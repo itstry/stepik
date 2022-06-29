@@ -1,15 +1,7 @@
-# 9 day; 1 задача; total: 137
-mx = -(10 ** 6)
-negative_num = 0
-for _ in range(10):
-    in_num = int(input())
-    if in_num < 0:
-        negative_num += in_num
-        if in_num > mx:
-            mx = in_num
-
-if mx == -(10 ** 6):
-    print('NO')
-else:
-    print(negative_num)
-    print(mx)
+# 9 day; 2 задача; total: 138
+sum_ = 0
+for i in range(7):
+    num = int(input())
+    if num % 2 == 0:
+        sum_ += + num
+print(sum_)
