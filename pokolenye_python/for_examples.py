@@ -1,5 +1,7 @@
-# 9 day; 4 задача; total: 140
-n = int(input())
-while n > 9:
-    n //= 10
-print(n)
+num = int(input())
+multi_num = 1
+while num > 0:
+    digit = num % 10
+    multi_num = multi_num * digit
+    num //= 10
+print(multi_num)
