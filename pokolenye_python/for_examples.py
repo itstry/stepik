@@ -1,8 +1,15 @@
-# 8 day; 7 задача; total: 135
-count, multi = 0, 1
-for _ in range(10):  # 4
-    x = int(input())
-    if x >= 0:  # 2
-        multi *= x
-        count += 1
-[print(f'{count}\n{multi}') if count > 0 else print('NO')]
+# 9 day; 1 задача; total: 137
+mx = -(10 ** 6)
+negative_num = 0
+for _ in range(10):
+    in_num = int(input())
+    if in_num < 0:
+        negative_num += in_num
+        if in_num > mx:
+            mx = in_num
+
+if mx == -(10 ** 6):
+    print('NO')
+else:
+    print(negative_num)
+    print(mx)
