@@ -1,8 +1,8 @@
 count = 0
-maximum = (-(10 ** 12)) - 1
-for i in range(8):
+maximum = -10 ** 8 - 1
+for _ in range(4):
     x = int(input())
-    if x % 4 == 0:
+    if x % 2 != 0:
         count += 1
         if x > maximum:
             maximum = x
