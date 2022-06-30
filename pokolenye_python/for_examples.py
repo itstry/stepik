@@ -1,13 +1,6 @@
-count = 0
-maximum = -10 ** 8 - 1
-for _ in range(4):
-    x = int(input())
-    if x % 2 != 0:
-        count += 1
-        if x > maximum:
-            maximum = x
-if count > 0:
-    print(count)
-    print(maximum)
-else:
-    print('NO')
+num = int(input())
+
+print(19 * '*')
+for i in range(num - 2):
+    print('*' + ' ' * 17 + '*')
+print(19 * '*')
