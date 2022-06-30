@@ -1,3 +1,6 @@
 line = input()
-print(f'Символ + встречается {line.count("+")} раз')
-print(f'Символ * встречается {line.count("*")} раз')
+counter_double = 0
+for i in range(len(line)-1):
+    if line[i] == line[i + 1]:
+        counter_double += 1
+print(counter_double)
