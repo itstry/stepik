@@ -1,9 +1,15 @@
-from math import factorial
+num_1 = int(input())
+num_2 = int(input())
 
-num = int(input())
-sum_num = 0
+counter_now = 0
 
-for i in range(1, num + 1):
-    sum_num = sum_num + factorial(i)
+if num_1 == 1:
+    num_1 += 1
 
-print(sum_num)
+for i in range(num_1, num_2 + 1):
+    counter_now = 0
+    for k in range(1, i + 1):
+        if i % k == 0:
+            counter_now += 1
+    if counter_now == 2:
+        print(i)
