@@ -1,7 +1,13 @@
-num = int(input())
-sum = 0
-while num > 0:
-    if num % 2 == 0:
-        sum += num % 10
-    num //= 10
-print(sum)
+count = 0
+maximum = (-(10 ** 12)) - 1
+for i in range(8):
+    x = int(input())
+    if x % 4 == 0:
+        count += 1
+        if x > maximum:
+            maximum = x
+if count > 0:
+    print(count)
+    print(maximum)
+else:
+    print('NO')
