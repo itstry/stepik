@@ -1,8 +1,2 @@
-num = int(input())
-num_in_bin = ''
-while num > 0:
-    integer = num // 2
-    remainder = num % 2
-    num_in_bin += str(remainder)
-    num = integer
-print(num_in_bin[::-1])
+s = "In 2010, someone paid 10k Bitcoin for two pizzas."
+print(s[:12])
