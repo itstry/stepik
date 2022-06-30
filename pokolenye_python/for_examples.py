@@ -1,5 +1,3 @@
 line = input()
-total = 0
-for i in range(len(line)):
-    total += int(line[i])
-print(total)
+x = any(i in line for i in '1234567890')
+print('Цифр нет' if x == 0 else 'Цифра')
