@@ -1,2 +1,6 @@
-line = input().lower()
-print('YES' if 'хорош' in line else 'NO')
+line = input()
+counter_lower = 0
+for i in line:
+    if i.islower():
+        counter_lower += 1
+print(counter_lower)
