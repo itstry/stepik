@@ -1,2 +1,5 @@
-s = "In 2010, someone paid 10k Bitcoin for two pizzas."
-print(s[::-1])
+line = input()
+if line[::-1] == line:
+    print('YES')
+else:
+    print('NO')
