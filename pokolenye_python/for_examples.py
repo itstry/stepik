@@ -1,7 +1,2 @@
-line = input()
-print('YES' if line.istitle() else 'NO')
-
-
-
-
-
+line = input().lower()
+print('YES' if 'хорош' in line else 'NO')
