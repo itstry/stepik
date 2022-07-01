@@ -1,4 +1,1 @@
-line = input()
-x = line.find('h')
-y = line.rfind('h')
-print(line[:x] + line[y + 1:])
+print('In {0}, someone paid {1} {2} for two pizzas.'.format(2010, '10k', 'Bitcoin'))
