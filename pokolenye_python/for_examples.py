@@ -1,2 +1,2 @@
-s = '    Python rocks!     '
-print(s.strip())
+s = 'Python rocks!'
+print(s.upper())
