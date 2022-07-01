@@ -1,9 +1,5 @@
 line = input()
-new_line = ''
+index_1_h = line.find('h')
+index_2_h = line.rfind('h')
 
-for ch in range(len(line)):
-    if ch % 3 == 0:
-        pass
-    else:
-        new_line += line[ch]
-print(new_line)
+print(line[:index_1_h + 1] + line[index_2_h - 1:index_1_h:-1] + line[index_2_h:])
