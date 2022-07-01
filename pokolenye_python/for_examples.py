@@ -1,6 +1,5 @@
-line = input().upper()
+counter_11 = 0
 
-print(f'Аденин: {line.count("А")}')
-print(f'Гуанин: {line.count("Г")}')
-print(f'Цитозин: {line.count("Ц")}')
-print(f'Тимин: {line.count("Т")}')
+for i in range(int(input())):
+    counter_11 += 1 if (input().count('11')) >= 3 else 0
+print(counter_11)
