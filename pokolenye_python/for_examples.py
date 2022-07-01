@@ -1,1 +1,5 @@
-print('In {0}, someone paid {1} {2} for two pizzas.'.format(2010, '10k', 'Bitcoin'))
+year = 2010
+amount = '10K'
+currency = 'Bitcoin'
+
+print(f'In {year}, someone paid {amount} {currency} for two pizzas.')
