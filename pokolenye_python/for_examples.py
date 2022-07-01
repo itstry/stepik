@@ -1,5 +1,5 @@
-counter_11 = 0
+counter_digit = 0
 
-for i in range(int(input())):
-    counter_11 += 1 if (input().count('11')) >= 3 else 0
-print(counter_11)
+for i in input():
+    counter_digit += 1 if i.isdigit() else 0
+print(counter_digit)
