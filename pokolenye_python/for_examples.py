@@ -1,2 +1,1 @@
-num = int(input())
-print(list(range(1, num + 1)))
+print([chr(i) for i in range(97, 97 + int(input()))])
