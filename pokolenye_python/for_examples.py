@@ -1,3 +1,3 @@
 line = input()
 
-print(line.replace('1', 'one'))
+print(line.replace('@', ''))
