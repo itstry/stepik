@@ -1,1 +1,3 @@
-print([chr(i) for i in range(97, 97 + int(input()))])
+primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
+
+print(primes[16])
