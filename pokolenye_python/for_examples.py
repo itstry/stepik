@@ -1,2 +1,2 @@
-s = 'Python rocks!'
-print(s[1:5])
+s = '    Python rocks!     '
+print(s.strip())
