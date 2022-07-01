@@ -1,2 +1,2 @@
 s = 'Python rocks!'
-print(s.upper())
+print(s.replace('o', '@'))
