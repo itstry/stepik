@@ -1,5 +1,5 @@
-year = 2010
-amount = '10K'
-currency = 'Bitcoin'
+num_1 = int(input())
+num_2 = int(input())
 
-print(f'In {year}, someone paid {amount} {currency} for two pizzas.')
+for i in range(num_1, num_2 + 1):
+    print(chr(i), end=' ')
