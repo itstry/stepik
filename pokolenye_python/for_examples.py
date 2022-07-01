@@ -1,1 +1,7 @@
-print(input().swapcase())
+line = input()
+print('YES' if line.istitle() else 'NO')
+
+
+
+
+
