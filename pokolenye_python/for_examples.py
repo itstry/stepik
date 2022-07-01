@@ -1,13 +1,9 @@
 line = input()
+new_line = ''
 
-if line.count('f') == 1:
-    print('-1')
-elif line.count('f') == 0:
-    print('-2')
-else:
-    index_f = line.find('f')
-    line = line[:index_f] + line[index_f + 1:]
-    if len(line) == 1:
-        print(1)
-        exit()
-    print(line.find('f') + 1)
+for ch in range(len(line)):
+    if ch % 3 == 0:
+        pass
+    else:
+        new_line += line[ch]
+print(new_line)
