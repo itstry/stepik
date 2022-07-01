@@ -1,3 +1,6 @@
-line = input()
+line = input().upper()
 
-print(line.count(' ') + 1)
+print(f'Аденин: {line.count("А")}')
+print(f'Гуанин: {line.count("Г")}')
+print(f'Цитозин: {line.count("Ц")}')
+print(f'Тимин: {line.count("Т")}')
