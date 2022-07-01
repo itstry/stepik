@@ -1,2 +1,3 @@
-s = 'Python rocks!'
-print(s.replace('o', '@'))
+line = input()
+
+print(line.replace('1', 'one'))
