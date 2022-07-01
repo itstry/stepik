@@ -1,8 +1,7 @@
 line = input()
-counter_word_global = 0
-word = ''
-for i in line:
-    if line.count(i) >= counter_word_global:
-        counter_word_global = line.count(i)
-        word = i
-print(word)
+if line.count('f') == 0:
+    print('NO')
+    exit()
+print(line.find('f'), end=' ')
+if line.count('f') > 1:
+    print(line.rfind('f'))
