@@ -1,10 +1,6 @@
+from math import ceil
+
 line = input()
 
-print(line[2])
-print(line[-2])
-print(line[0:5])
-print(line[0:-2])
-print(line[0::2])
-print(line[1::2])
-print(line[::-1])
-print(line[::-2])
+len_line_2 = ceil(len(line) / 2)
+print(line[len_line_2:] + line[:len_line_2])
