@@ -1,4 +1,5 @@
-evens = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-average = sum(evens) / len(evens)
+rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
+rainbow[rainbow.index('Green')] = 'Зеленый'
+rainbow[rainbow.index('Violet')] = 'Фиолетовый'
 
-print(average)
+print(rainbow)
