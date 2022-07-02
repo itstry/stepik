@@ -1,5 +1,2 @@
-rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
-rainbow[rainbow.index('Green')] = 'Зеленый'
-rainbow[rainbow.index('Violet')] = 'Фиолетовый'
-
-print(rainbow)
+print(['Chinese', 'Spanish', 'English', 'Hindi', 'Arabic', 'Bengali', 'Portuguese', 'Russian', 'Japanese',
+       'Lahnda'][::-1])
