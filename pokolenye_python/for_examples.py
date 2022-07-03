@@ -1,4 +1,5 @@
-list_num = [int(input()) for i in range(int(input()))]
-for i in range(len(list_num) // 2):
-    del list_num[i + 1]
-print(list_num)
+list_words = [input() for i in range(int(input()))]
+k = int(input())
+for words in list_words:
+    if len(words) >= k:
+        print(words[k - 1], end='')
