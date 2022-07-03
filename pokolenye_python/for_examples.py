@@ -1,5 +1,1 @@
-list_line = []
-for i in range(int(input())):
-    list_line.append(input())
-else:
-    print(list_line)
+print([chr(i + 97) * (i + 1) for i in range(26)])
