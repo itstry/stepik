@@ -1,2 +1,2 @@
-numbers = [1, 78, 23, -65, 99, 9089, 34, -32, 0, -67, 1, 11, 111]
-print(sum([i ** 2 for i in numbers]))
+print(*(list_num := [int(input()) for i in range(int(input()))]), sep='\n', end='\n\n')
+print(*[k ** 2 + 2 * k + 1 for k in list_num], sep='\n')
