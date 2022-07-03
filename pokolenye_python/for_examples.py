@@ -1,1 +1,1 @@
-print([chr(i + 97) * (i + 1) for i in range(26)])
+print([(int(input())) ** 3 for _ in range(int(input()))])
