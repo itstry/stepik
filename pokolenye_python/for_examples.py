@@ -2,6 +2,6 @@ keywords = ['False', 'True', 'None', 'and', 'with', 'as', 'assert', 'break', 'cl
             'else', 'except', 'finally', 'try', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda',
             'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'while', 'yield']
 
-lengths = [len(i) for i in keywords]
+new_keywords = [i for i in keywords if len(i) >= 5]
 
-print(lengths)
+print(new_keywords)
