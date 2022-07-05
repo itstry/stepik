@@ -1,1 +1,1 @@
-print(*(int(i) ** 3 for i in (input().split())))
+print(*input().split(), sep='\n')
