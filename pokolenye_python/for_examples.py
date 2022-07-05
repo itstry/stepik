@@ -1,6 +1,11 @@
-list_in = input().split()
-list_out = []
-for i in list_in:
-    i = i + i[0] + 'ки'
-    list_out.append(i[1:])
-print(*list_out)
+list_num = input().split('-')
+if list_num[0] == '7':
+    del list_num[0]
+
+if len(list_num[0]) == 3 and len(list_num[1]) == 3 and len(list_num[2]):
+    if list_num[0].isdigit() and list_num[1].isdigit() and list_num[2].isdigit():
+        print('YES')
+    else:
+        print('NO')
+else:
+    print('NO')
