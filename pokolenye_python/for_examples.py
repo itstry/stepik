@@ -1,6 +1,2 @@
-num_str = int(input().strip('#'))
-list_str = ([input() for _ in range(num_str)])
-
-for i in list_str:
-    list_str[list_str.index(i)] = i[:i.index('#')].rstrip()
-print(*list_str, sep='\n')
+list_str = ([input() for _ in range(int(input().strip('#')))])
+print(*((i[:i.index('#')].rstrip()) if '#' in i else i for i in list_str), sep='\n')
