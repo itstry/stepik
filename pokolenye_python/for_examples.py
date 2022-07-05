@@ -1,1 +1,1 @@
-print(*input().split(), sep='\n')
+print(*(i for i in input() if i.isdigit()), sep='')
