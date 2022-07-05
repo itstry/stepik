@@ -1,8 +1,7 @@
-list_num = [int(i) for i in input().split()]
+list_word, counter_article = input().lower().split(), 0
 
-index_max = list_num.index(max(list_num))
-index_min = list_num.index(min(list_num))
-
-list_num[index_max], list_num[index_min] = list_num[index_min], list_num[index_max]
-
-print(*list_num)
+for i in ('a', 'an', 'the'):
+    for k in list_word:
+        if i == k:
+            counter_article += 1
+print(f'Общее количество артиклей: {counter_article}')
