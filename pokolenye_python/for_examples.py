@@ -2,9 +2,5 @@ num_str = int(input().strip('#'))
 list_str = ([input() for _ in range(num_str)])
 
 for i in list_str:
-    k = i
-    while '#' in k:
-        k = k[:-1]
-    list_str[list_str.index(i)] = k.rstrip()
-
+    list_str[list_str.index(i)] = i[:i.index('#')].rstrip()
 print(*list_str, sep='\n')
