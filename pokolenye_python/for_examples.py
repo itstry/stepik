@@ -1,10 +1,8 @@
-numbers = [8, 9, 10, 11]
+list_num = [int(i) for i in input().split()]
 
-del numbers[1]  # 1
-numbers.insert(1, 17)
-numbers = numbers + [4, 5, 6]  # 2
-del numbers[0]  # 3
-numbers = numbers * 2  # 4
-numbers.insert(3, 25)  # 5
+index_max = list_num.index(max(list_num))
+index_min = list_num.index(min(list_num))
 
-print(numbers)  # 6
+list_num[index_max], list_num[index_min] = list_num[index_min], list_num[index_max]
+
+print(*list_num)
