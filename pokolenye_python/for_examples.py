@@ -1,1 +1,1 @@
-print([i for i in range(100, 1000) if str(i) == str(i)[::-1]])
+print(*(i ** 2 for i in range(1, int(input()) + 1)), sep='\n')
