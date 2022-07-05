@@ -1,7 +1,10 @@
-list_word, counter_article = input().lower().split(), 0
+num_str = int(input().strip('#'))
+list_str = ([input() for _ in range(num_str)])
 
-for i in ('a', 'an', 'the'):
-    for k in list_word:
-        if i == k:
-            counter_article += 1
-print(f'Общее количество артиклей: {counter_article}')
+for i in list_str:
+    k = i
+    while '#' in k:
+        k = k[:-1]
+    list_str[list_str.index(i)] = k.rstrip()
+
+print(*list_str, sep='\n')
